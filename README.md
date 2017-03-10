@@ -7,3 +7,4 @@ Ling Qian Portfolio Page
 
 - [ ] Change color scheme
 - [ ] Upload Photo
+- [ ] favicon
