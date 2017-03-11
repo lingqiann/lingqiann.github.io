@@ -461,11 +461,11 @@ footer .footer-below {
 }
 
 @media (min-width: 1200px){
-    nav > .container{
+    nav > .container, footer .container {
         width: 1170px;
 }   
     
-nav > .container{
+nav > .container, footer .container {
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
