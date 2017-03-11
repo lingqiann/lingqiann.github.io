@@ -459,3 +459,10 @@ footer .footer-below {
 .img-banner{
     width: 100%   
 }
+
+nav > .container{
+    @media (min-width: 1200px)
+        .container{
+            width: 1170px;
+    }   
+}
