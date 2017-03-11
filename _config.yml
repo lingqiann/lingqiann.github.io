@@ -1,10 +1,10 @@
 # Site settings
 title: Ling Qian Portfolio
 email: lingqian@iu.edu
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+url: http://www.lingqian.me
+description: "My goal is to become an excellent Instructional Technology Consultant in higher education, designing and developing online/hybrid courses and helping instructors reach their potential in teaching. I have extensive knowledge about Instructional Design, adult learning, and cutting-edge learning technologies. Using ADDIE and online learning strategies developed IU online EDGE Career Canvas modules. I have experience in using advanced features of Adobe Creative Suite, including Illustrator, Photoshop developed infographic and conference poster in a professional capacity.  Worked as a Canvas consultant with skills of advising, consulting and coordinating with faculty clients. Experiences of collaborating with SEMs and developers. Experiences in evaluation and needs assessment help me translating client needs into finished productions designed to meet instructional goals. "
 skills: "Instructional Designer - Instructional Technologies Specialist - Graphic Designer"
-meta_author: LastName FirstName
+meta_author: Qian Ling
 
 # Google webmaster tools
 google_verify:
@@ -31,31 +31,31 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Ling Qian 2017
+  location:  Bloomington IN
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: linkedin
+    url: https://www.linkedin.com/in/ling-qian-ba997b105/
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url:https://www.facebook.com/profile.php?id=100004793224268
+  - title: instagram
+    url: https://www.instagram.com/qianling79/?hl=en
+  - title: twitter
+    url: http://twitter.com/lingqian2015
   - title: github
     url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 2001 E.Lingelbach Ln.
+  - line: Bloomington IN,47408
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Thank for IST Department of Indiana University Bloomington and supporting by Mr. Tim Whitson.'
 
 # Build settings
 markdown: kramdown
