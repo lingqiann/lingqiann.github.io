@@ -460,9 +460,7 @@ footer .footer-below {
     width: 100%   
 }
 
-nav > .container{
-    @media (min-width: 1200px)
-        .container{
-            width: 1170px;
-    }   
-}
+@media (min-width: 1200px){
+    nav > .container{
+        width: 1170px;
+}   
