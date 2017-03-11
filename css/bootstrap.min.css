@@ -1,1 +1,3 @@
-{% include css/bootstrap.min.css %}
+---
+layout: bootstrap.min.css
+---
