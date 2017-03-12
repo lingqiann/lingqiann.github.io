@@ -31,7 +31,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Ling Qian 2017
+  copyright: Ling Qian
   location:  Location
   social: Around the Web
   credits: Credits
@@ -51,8 +51,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 2001 E.Lingelbach Ln.
-  - line: Bloomington IN,47408
+  - line: 2001 E. Lingelbach Ln.
+  - line: Bloomington IN, 47408
 
 # Credits content
 credits: 'Thanks to IST Department of Indiana University Bloomington and Mr. Tim Whitson for technical support.'
