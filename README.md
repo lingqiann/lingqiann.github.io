@@ -11,3 +11,4 @@ Ling Qian Portfolio Page
 - [ ] change portofolio image
 - [ ] Add a sentence on the image
 - [ ] change About
+- [ ] font issue
