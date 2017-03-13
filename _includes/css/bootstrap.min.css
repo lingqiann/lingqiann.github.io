@@ -5608,7 +5608,7 @@ a.list-group-item:focus {
     z-index:2;
     color:#ffffff;
     background-color:#{{ site.color.secondary }};
-    border-color:#{{ site.color.secondary }
+    border-color:#{{ site.color.secondary }}
 }
 
 }
