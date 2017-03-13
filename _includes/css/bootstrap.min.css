@@ -2962,7 +2962,6 @@ select[multiple].input-lg {
     background-color:#{{ site.color.primary }}
 }
 
-}
 .has-success .form-control-feedback {
     color:#ffffff
 }
