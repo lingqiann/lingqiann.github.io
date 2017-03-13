@@ -5,10 +5,10 @@ Ling Qian Portfolio Page
 
 ## To-do
 
-- [x] Change color scheme
+- [ ] Change color scheme
 - [x] Upload Photo
 - [x] favicon
-- [ ] change portfolio image
+- [ ] Change portfolio image
 - [ ] Add text over banner image
 - [ ] Change About
 - [ ] Choose font, make uniform
