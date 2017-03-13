@@ -4585,10 +4585,8 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color:#{{ site.color.primary }
-}
-;
-background-color:transparent
+    color:#{{ site.color.primary }}；
+    background-color:transparent
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
