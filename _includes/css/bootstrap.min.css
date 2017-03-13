@@ -1140,11 +1140,8 @@ body {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 1.42857143;
-    color:#{{ site.color.secondary }}
-}
-
-;
-background-color:#ffffff
+    color:#{{ site.color.secondary }};
+    background-color:#ffffff
 }
 input,
 button,
@@ -1156,12 +1153,12 @@ textarea {
 }
 a {
     color:#{{ site.color.primary }};
-text-decoration:none
+    text-decoration:none
 }
 a:hover,
 a:focus {
     color:#{{ site.color.primary }};
-text-decoration:underline
+    text-decoration:underline
 }
 a:focus {
     outline:thin dotted;
