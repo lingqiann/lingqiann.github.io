@@ -1646,7 +1646,7 @@ pre code {
     max-height:340px;
     overflow-y:scroll
 }
-@media (min-width:768px) {
+/*@media (min-width:768px) {
     .container {
         width:750px
     }
@@ -1660,6 +1660,9 @@ pre code {
     .container {
         width:100%
     }
+}*/
+.container {
+    width: 100%;
 }
 .container-fluid {
     margin-right:auto;
