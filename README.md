@@ -8,7 +8,8 @@ Ling Qian Portfolio Page
 - [x] Change color scheme
 - [x] Upload Photo
 - [x] favicon
-- [ ] change portofolio image
-- [ ] Add a sentence on the image
-- [ ] change About
-- [ ] font issue
+- [ ] change portfolio image
+- [ ] Add text over banner image
+- [ ] Change About
+- [ ] Choose font, make uniform
+- [ ] Fix container padding in smaller widths
