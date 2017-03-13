@@ -1177,7 +1177,7 @@ img {
 .carousel-inner>.item>img,
 .carousel-inner>.item>a>img {
     display:block;
-    width:100% \9;
+    width:100%;
     max-width:100%;
     height:auto
 }
@@ -1194,7 +1194,7 @@ img {
     -o-transition:all .2s ease-in-out;
     transition:all .2s ease-in-out;
     display:inline-block;
-    width:100% \9;
+    width:100%;
     max-width:100%;
     height:auto
 }
@@ -1405,7 +1405,6 @@ mark,
     color:#{{ site.color.secondary }}
 }
 
-}
 a.text-primary:hover {
     color:#1a242f
 }
@@ -1437,8 +1436,6 @@ a.text-danger:hover {
     color:#fff;
     background-color:#{{ site.color.secondary }}
 }
-
-}
 a.bg-primary:hover {
     background-color:#1a242f
 }
@@ -1446,7 +1443,6 @@ a.bg-primary:hover {
     background-color:#{{ site.color.primary }}
 }
 
-}
 a.bg-success:hover {
     background-color:#128f76
 }
@@ -2520,7 +2516,6 @@ table th[class*="col-"] {
     background-color:#{{ site.color.primary }}
 }
 
-}
 .table-hover>tbody>tr>td.success:hover,
 .table-hover>tbody>tr>th.success:hover,
 .table-hover>tbody>tr.success:hover>td,
