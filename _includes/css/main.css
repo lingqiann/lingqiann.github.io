@@ -482,6 +482,7 @@ nav > .container, footer .container, section .container {
     max-height: 260px;
 }
 
+/* misc */
 section:nth-child(even) {
     background-color: #{{ site.color.primary }};
     color: #fff;
