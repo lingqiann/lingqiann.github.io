@@ -483,7 +483,6 @@ nav > .container, footer .container, section .container {
 }
 
 section:nth-child(even) {
-    background-color: #{{ site.color.primary }}
+    background-color: #{{ site.color.primary }};
     color: #fff;
-}
 }
