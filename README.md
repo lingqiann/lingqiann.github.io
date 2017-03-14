@@ -2,6 +2,7 @@ Ling Qian Portfolio Page
 ========================
 
 # Introduction
+GitHub page for my portfolio site. [lingqian.me](lingqian.me).
 
 ## To-do
 
