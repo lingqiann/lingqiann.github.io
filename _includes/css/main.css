@@ -481,3 +481,8 @@ nav > .container, footer .container, section .container {
 .portfolio-link {
     max-height: 260px;
 }
+
+section:nth-child(even) {
+    background-color: {{ site.color.primary }}
+}
+}
