@@ -28,6 +28,12 @@ color:
   primary-rgb: "102,129,156" # default: 24,288,156
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
+  
+# Header settings
+header:
+  image: profile.jpg
+  quote: "I strive for two things in design: simplicity and clarity."
+  author: Lindon Leader
 
 # Footer settings
 footer:
