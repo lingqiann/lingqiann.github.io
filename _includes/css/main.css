@@ -475,7 +475,7 @@ ul.nav > li > a:focus {
     position: absolute;
     padding: 2vw;
     max-width: 45%;
-    bottom: 50%;
+    bottom: 40%;
     right: 5%;
     transform: translate(0, 50%);
     font-size: 2.5vw;
