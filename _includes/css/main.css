@@ -487,6 +487,18 @@ nav > .container, footer .container, section .container {
 
 #documents button {
     display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#documents img {
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+.modal-body embed {
+    width: 100%;
+    min-height: 850px;
 }
 
 /* misc */
