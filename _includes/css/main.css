@@ -487,7 +487,7 @@ ul.nav > li > a:focus {
 #banner .quote .author {
     display: block;
     position: relative;
-    margin-top: 1rem;
+    margin-top: 1vw;
     text-align: right;
 }
 
