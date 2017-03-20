@@ -492,7 +492,7 @@ ul.nav > li > a:focus {
 }
 
 #banner .quote .author:before {
-    content: "--";
+    content: "\2015";
 }
 
 @media (min-width: 1200px){
