@@ -61,7 +61,7 @@ address:
   - line: Bloomington IN, 47408
 
 # Credits content
-credits: 'Thanks to IST Department of Indiana University Bloomington and Mr. Tim Whitson for technical support.'
+credits: 'Thanks to IST Department of Indiana University Bloomington and Mr. Timothy Whitson for technical support.'
 
 # Build settings
 markdown: kramdown
