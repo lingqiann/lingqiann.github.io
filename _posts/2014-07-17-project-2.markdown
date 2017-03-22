@@ -5,8 +5,9 @@ date: 2017-03-17
 img: job_aid.png
 alt: image-alt
 project-date: March 2017
-client: Iindiana University CITL
+client: Indiana University CITL
 category: Job aid
+caption: CITL Job Aid
 ---
 This job aid is to help faculty who need help in setting assignment and grading in Canvas. It can be used in Canvas training seminar or job aid.
 
