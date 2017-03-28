@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2017-03-17
-img: job_aid22.png
+img: job_aid.png
 alt: image-alt
 project-date: March 2017
 client: Indiana University
