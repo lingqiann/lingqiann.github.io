@@ -406,15 +406,14 @@ hr.star-light, hr.star-primary {
 }
 
 .nopadding{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    /*padding-left: 0 !important;
+    padding-right: 0 !important;*/
 }
 
 /* projects */
 .project-caption{
-    padding: 15px;
+    /*padding: 15px;*/
 }
-
 
 @media only screen and (min-width : 768px) {
     .is-table {
@@ -435,4 +434,8 @@ hr.star-light, hr.star-primary {
 
 .project-caption p:not(:last-of-type){
     border-bottom: 1px solid #DDD;
+}
+
+.portfolio-link{
+    margin-top: 15px;   
 }
