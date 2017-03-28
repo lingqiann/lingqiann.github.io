@@ -7,7 +7,7 @@ alt: image-alt
 project-date: March 2017
 client: Indiana University
 category: Job aid
-caption: Canvas Job Aid
+pdf: job_aid22.pdf
 ---
 This job aid is to help faculty who need help in setting assignment and grading in Canvas. It can be used in Canvas training seminar or job aid.
 

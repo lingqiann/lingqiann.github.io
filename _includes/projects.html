@@ -8,19 +8,25 @@
                     <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
-                {% for post in site.posts %}
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    {{ post.caption }}
-                                </div>
-                            </div>
-                            <img src="img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
+            {% for post in site.posts %}
+                {% assign mod = forloop.index | modulo:3 %}
+                {% if mod == 1 %}
+                    <div class="row is-table">
+                {% endif %}
+                
+                <div class="col-md-4 portfolio-item nopadding">
+                    <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
+                        <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                    </a>
+                    <div class="project-caption">
+                        <p>Date: {{ post.date | date: "%m/%d/%Y" }}</p>
+                        <p>Client: {{ post.client }}</p>
+                        <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
                     </div>
-                {% endfor %}
-            </div>
+                </div>
+                {% if mod == 0 or forloop.last %}
+                    </div>
+                {% endif %}
+            {% endfor %}
         </div>
     </section>
