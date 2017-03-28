@@ -1,13 +1,13 @@
 ---
 layout: default
 modal-id: 4
-date: 2014-07-15
+date: 2017-02-15
 img: EDGE_inforgraphic.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-pdf: job_aid22.pdf
+project-date: February 2017
+client: Indiana University OEVPVAA
+category: Infographic
+pdf: EDGE_infographic.pdf
 ---
 
-Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+This design is to have a quick look about EDGE online course modules for undergraduate students and career advisors.Designed by Ling Qian, using Illustrator CC, contents come from https://iu.instructure.com/courses/1467746. 
