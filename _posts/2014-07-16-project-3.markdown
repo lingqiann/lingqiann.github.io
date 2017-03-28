@@ -1,12 +1,12 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-16
+date: 2015-12-16
 img: job_aid22.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-pdf: job_aid22.pdf
+project-date: December 2016
+client: IU IST department
+category: Needs Assessment
+pdf: online_master_needs_assessment_slides.pdf
 ---
-Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+This project is a needs assessment for Indiana University Instructional System Technology department online master's program. 
