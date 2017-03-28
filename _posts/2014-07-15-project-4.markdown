@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 date: 2017-02-15
-img: EDGE_inforgraphic.png
+img: EDGE_infographic.png
 alt: image-alt
 project-date: February 2017
 client: Indiana University OEVPVAA
