@@ -436,6 +436,6 @@ hr.star-light, hr.star-primary {
     border-bottom: 1px solid #DDD;
 }
 
-.portfolio-link{
-    margin-top: 15px;   
+.portfolio-link img{
+    margin: 15px 0;   
 }
