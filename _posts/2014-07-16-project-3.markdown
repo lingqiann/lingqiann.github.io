@@ -2,11 +2,11 @@
 layout: default
 modal-id: 3
 date: 2015-12-16
-img: job_aid22.png
+img: online_master_needs_assessment_slides.png
 alt: image-alt
 project-date: December 2016
 client: IU IST department
 category: Needs Assessment
 pdf: online_master_needs_assessment_slides.pdf
 ---
-This project is a needs assessment for Indiana University Instructional System Technology department online master's program. 
+This project is a needs assessment project for Indiana University Instructional System Technology department online master's program. 
