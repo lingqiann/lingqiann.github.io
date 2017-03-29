@@ -383,14 +383,14 @@ nav > .container, footer .container, section .container {
     padding-right: 15px;
 }
     
-/* documents */
-#documents button {
+/* resumeF */
+#resume button {
     display: block;
     margin: auto;
     margin-top: 10px;
 }
 
-#documents img {
+#resume img {
     max-width: 100%;
     border: 1px solid black;
 }
