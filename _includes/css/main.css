@@ -405,14 +405,18 @@ hr.star-light, hr.star-primary {
     margin: 15px auto 30px;
 }
 
-.nopadding{
-    /*padding-left: 0 !important;
-    padding-right: 0 !important;*/
+
+p{
+    font-size: 20px;   
+}
+
+p.small{
+    font-size: 16px;   
 }
 
 /* projects */
-.project-caption{
-    /*padding: 15px;*/
+.project-caption p{
+    font-size: medium;
 }
 
 @media only screen and (min-width : 768px) {
@@ -439,3 +443,4 @@ hr.star-light, hr.star-primary {
 .portfolio-link img{
     margin: 15px 0;   
 }
+
