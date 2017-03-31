@@ -1,12 +1,12 @@
 ---
 layout: default
 modal-id: 6
-date: 2014-07-15
+date: 2017-03-31
 img: submarine.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+project-date: April 2017
+client: Indiana University
+category: Instructional Design
 pdf: job_aid22.pdf
 ---
 This is the main project of Instructional Design for career class about how to make an impression in Job Fair. Developed by Ling Qian using Premiere, Captivate, Go animation, Wix, Prezi.
