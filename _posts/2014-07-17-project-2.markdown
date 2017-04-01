@@ -9,5 +9,5 @@ client: Indiana University
 category: Job aid
 pdf: job_aid.pdf
 ---
-This job aid is to help faculty who need help in setting assignment and grading in Canvas. It can be used in Canvas training seminar or job aid.
+This job aid is to help faculty who need help in setting assignment and grading in Canvas. It can be used in Canvas training seminar or job aid. It was designed by Ling Qian using In Design.
 
