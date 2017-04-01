@@ -2,7 +2,7 @@
 layout: default
 modal-id: 6
 date: 2017-03-31
-img: submarine.png
+img: main_project.png
 alt: image-alt
 project-date: April 2017
 client: Indiana University
