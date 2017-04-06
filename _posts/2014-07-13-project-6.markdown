@@ -1,8 +1,8 @@
 ---
 layout: default
-name: Career Fair Attire
+name: Career Fair Attire (coming soon)
 tools: "Premiere, Captivate, Go animation, Wix, Prezi"
-date: 2017-03-31
+date: 2017-04-31
 img: main_project.png
 alt: image-alt
 client: Indiana University OEVPUAA
