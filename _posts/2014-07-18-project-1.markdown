@@ -1,12 +1,11 @@
 ---
 layout: default
-modal-id: 1
+name: Project 1
 date: 2017-01-18
+tools: "Illustrator, InDesign"
+client: Indiana University IST Conference
 img: IST_panel_discussion.png
 alt: image-alt
-project-date: January 2017
-client: Indiana University IST Conference
-category: Graphic Design
 pdf: IST_panel_discussion.pdf
 ---
 This poster was designed for the IST Conference 2017 Panel Discussion session, developed by Ling Qian using Illustrator CC.
