@@ -1,12 +1,13 @@
 ---
 layout: default
-modal-id: 3
+name: IST online course needs assessment
 date: 2015-12-16
+tools: SWOT
+client: IST Department
 img: online_master_needs_assessment_slides.png
 alt: image-alt
 project-date: December 2016
-client: IU IST department
-category: Needs Assessment
 pdf: online_master_needs_assessment_slides.pdf
 ---
 This project is a needs assessment project for Indiana University Instructional System Technology department online master's program. 
+
