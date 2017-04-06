@@ -19,9 +19,11 @@
                         <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                     </a>
                     <div class="project-caption">
+                        <p>Name: {{ post.name }}</p>
                         <p>Date: {{ post.date | date: "%b %Y" }}</p>
+                        <p>Tools: {{ post.tools }} </p>
                         <p>Client: {{ post.client }}</p>
-                        <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
+                        <!--<p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>-->
                     </div>
                 </div>
                 {% if mod == 0 or forloop.last %}
