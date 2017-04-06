@@ -1,13 +1,13 @@
 ---
 layout: default
-modal-id: 4
+name: EDGE infographic
 date: 2017-02-15
+tools: "Illustrator, Photoshop"
 img: EDGE_infographic.png
 alt: image-alt
-project-date: February 2017
 client: Indiana University OEVPVAA
-category: Infographic
 pdf: EDGE_infographic.pdf
 ---
 
 This design is to offer a quick look at EDGE online course modules for undergraduate students and career advisors.Designed by Ling Qian, using Illustrator CC, contents come from https://iu.instructure.com/courses/1467746. 
+
