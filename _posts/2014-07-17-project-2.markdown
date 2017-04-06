@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 2
+name: job aid
 date: 2017-03-17
 img: job_aid.png
 alt: image-alt
