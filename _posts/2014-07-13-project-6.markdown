@@ -1,12 +1,11 @@
 ---
 layout: default
-modal-id: 6
+name: Career Fair Attire
+tools: "Premiere, Captivate, Go animation, Wix, Prezi"
 date: 2017-03-31
 img: main_project.png
 alt: image-alt
-project-date: April 2017
-client: Indiana University
-category: Instructional Design
+client: Indiana University OEVPUAA
 pdf: job_aid22.pdf
 ---
 This is the main project of Instructional Design for career class about how to make an impression in Job Fair. Developed by Ling Qian using Premiere, Captivate, Go animation, Wix, Prezi. Please click https://roborf.wixsite.com/careers to preview.
