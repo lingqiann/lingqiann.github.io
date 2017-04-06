@@ -1,7 +1,8 @@
 ---
 layout: default
-modal-id: 5
+name: APA READING project
 date: 2017-03-5
+tools: experiment design
 img: 2017_IST_conference.png
 alt: image-alt
 project-date: April 2016
