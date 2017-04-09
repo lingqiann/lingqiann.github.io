@@ -9,29 +9,31 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Ling Qian</a>
+                <a class="navbar-brand" href="/">Ling Qian Portfolio</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    {% if page.layout == 'default' %}
+                        {% assign url_prefix = '' %}
+                    {% else %}
+                        {% assign url_prefix = '/' %}
+                    {% endif %}
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#projects">Projects</a>
+                    <li>
+                        <a href="/projects">Projects</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#vision">Vision</a>
+                        <a href="{{ url_prefix }}#resume">Resume</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#resume">Resume</a>
+                        <a href="{{ url_prefix }}#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="{{ url_prefix }}#contact">Contact</a>
                     </li>
                 </ul>
             </div>
