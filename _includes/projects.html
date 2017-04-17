@@ -1,34 +1,104 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2>Projects</h2>
+            <hr class="star-primary">
+        </div>
+    </div>
+</div>
 
-    <!-- Portfolio Grid Section -->
-    <section id="projects">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Projects</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
+<section>
+    <div class="container">
+        <div class="row">
+            <h2 class='text-center'>Projects</h2>
             {% for post in site.posts %}
-                {% assign mod = forloop.index | modulo:3 %}
-                {% if mod == 1 %}
-                    <div class="row is-table">
-                {% endif %}
-                
-                <div class="col-md-4 portfolio-item nopadding">
-                    <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
-                        <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                    </a>
-                    <div class="project-caption">
-                        <h4 style="text-align: center;">{{ post.name }}</h4>
+                {% if post.type == "project" %}
+                    <h3>{{ post.name }}</h3>
+                    <div class='col-md-6'>
+                        <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
+                            <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+                    <div class="col-md-6 project-caption">
                         <p>Date: {{ post.date | date: "%b %Y" }}</p>
                         <p>Tools: {{ post.tools }} </p>
                         <p>Client: {{ post.client }}</p>
-                        <!--<p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>-->
-                    </div>
-                </div>
-                {% if mod == 0 or forloop.last %}
+                        <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
                     </div>
                 {% endif %}
             {% endfor %}
         </div>
-    </section>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <h2 class='text-center'>Instructional Design</h2>
+            {% for post in site.posts %}
+                {% if post.type == "instructional design" %}
+                    <div>
+                        <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
+                            <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                        <div class="project-caption">
+                            <h4 style="text-align: center;">{{ post.name }}</h4>
+                            <p>Date: {{ post.date | date: "%b %Y" }}</p>
+                            <p>Tools: {{ post.tools }} </p>
+                            <p>Client: {{ post.client }}</p>
+                            <!--<p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>-->
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <h2 class='text-center'>Graphic Design</h2>
+            {% for post in site.posts %}
+                {% if post.type == "graphic design" %}
+                    <div>
+                        <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
+                            <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                        <div class="project-caption">
+                            <h4 style="text-align: center;">{{ post.name }}</h4>
+                            <p>Date: {{ post.date | date: "%b %Y" }}</p>
+                            <p>Tools: {{ post.tools }} </p>
+                            <p>Client: {{ post.client }}</p>
+                            <!--<p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>-->
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <h2 class='text-center'>Research</h2>
+            {% for post in site.posts %}
+                {% if post.type == "research" %}
+                    <div>
+                        <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
+                            <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                        <div class="project-caption">
+                            <h4 style="text-align: center;">{{ post.name }}</h4>
+                            <p>Date: {{ post.date | date: "%b %Y" }}</p>
+                            <p>Tools: {{ post.tools }} </p>
+                            <p>Client: {{ post.client }}</p>
+                            <!--<p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>-->
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
