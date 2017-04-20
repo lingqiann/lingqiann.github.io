@@ -11,19 +11,22 @@
     <div class="container">
         <div class="row">
             <h2 class='text-center'>Projects</h2>
+        </div>
             {% for post in site.posts %}
                 {% if post.type == "project" %}
-                    <h3>{{ post.name }}</h3>
-                    <div class='col-md-6'>
-                        <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
-                            <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
-                    </div>
-                    <div class="col-md-6 project-caption">
-                        <p>Date: {{ post.date | date: "%b %Y" }}</p>
-                        <p>Tools: {{ post.tools }} </p>
-                        <p>Client: {{ post.client }}</p>
-                        <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
+                    <div class="row">
+                        <h3>{{ post.name }}</h3>
+                        <div class='col-md-6'>
+                            <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
+                                <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            </a>
+                        </div>
+                        <div class="col-md-6 project-caption">
+                            <p>Date: {{ post.date | date: "%b %Y" }}</p>
+                            <p>Tools: {{ post.tools }} </p>
+                            <p>Client: {{ post.client }}</p>
+                            <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
+                        </div>
                     </div>
                 {% endif %}
             {% endfor %}
