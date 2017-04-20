@@ -39,7 +39,7 @@
         <div class="row">
             <h2 class='text-center'>Instructional Design</h2>
             {% for post in site.posts %}
-                {% if post.type == "project" %}
+                {% if post.type == "instructional design" %}
                     <div class="row">
                         <h3>{{ post.name }}</h3>
                         <div class='col-md-6'>
@@ -65,7 +65,7 @@
         <div class="row">
             <h2 class='text-center'>Graphic Design</h2>
             {% for post in site.posts %}
-                {% if post.type == "project" %}
+                {% if post.type == "graphic design" %}
                     <div class="row">
                         <h3>{{ post.name }}</h3>
                         <div class='col-md-6'>
@@ -91,7 +91,7 @@
         <div class="row">
             <h2 class='text-center'>Research</h2>
             {% for post in site.posts %}
-                {% if post.type == "project" %}
+                {% if post.type == "research" %}
                     <div class="row">
                         <h3>{{ post.name }}</h3>
                         <div class='col-md-6'>
