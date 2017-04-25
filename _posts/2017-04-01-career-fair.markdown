@@ -9,5 +9,5 @@ client: Indiana University OEVPUAA
 pdf: job_aid22.pdf
 video: https://www.youtube.com/embed/G40-tXBueJ0
 ---
-This is the main project of Instructional Design for career class about how to make an impression in Job Fair. Developed by Ling Qian using Premiere, Captivate, Go animation, Wix, Prezi. Please click https://roborf.wixsite.com/careers to preview.
+This is the main project of Instructional Design for career class about how to make an impression in Job Fair. Developed by Ling Qian using Premiere, Captivate, Go animation, Wix, Prezi.  [Click here](https://roborf.wixsite.com/career) to preview.
 
