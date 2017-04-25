@@ -8,11 +8,17 @@
             {% for post in site.posts %}
                 {% if post.type == "project" %}
                     <div class="row">
-                        <div class='col-md-6'>
-                            <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
-                                <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                            </a>
-                        </div>
+                        {% if post.video %}
+                            <div class='col-md-6'>
+                                <iframe class="img-responsive" src="{{ post.video }}" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        {% else %}
+                            <div class='col-md-6'>
+                                <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
+                                    <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                                </a>
+                            </div>
+                        {% endif %}
                         <div class="col-md-6 project-caption">
                             <h3>{{ post.name }}</h3>
                             <p>Date: {{ post.date | date: "%b %Y" }}</p>
@@ -34,11 +40,17 @@
             {% for post in site.posts %}
                 {% if post.type == "instructional design" %}
                     <div class="row">
-                        <div class='col-md-6'>
-                            <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
-                                <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                            </a>
-                        </div>
+                        {% if post.video %}
+                            <div class='col-md-6 embed-responsive-item'>
+                                <iframe src="{{ post.video }}" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        {% else %}
+                            <div class='col-md-6'>
+                                <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
+                                    <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                                </a>
+                            </div>
+                        {% endif %}
                         <div class="col-md-6 project-caption">
                             <h3>{{ post.name }}</h3>
                             <p>Date: {{ post.date | date: "%b %Y" }}</p>
@@ -60,11 +72,17 @@
             {% for post in site.posts %}
                 {% if post.type == "graphic design" %}
                     <div class="row">
-                        <div class='col-md-6'>
-                            <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
-                                <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                            </a>
-                        </div>
+                        {% if post.video %}
+                            <div class='col-md-6 embed-responsive-item'>
+                                <iframe src="{{ post.video }}" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        {% else %}
+                            <div class='col-md-6'>
+                                <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
+                                    <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                                </a>
+                            </div>
+                        {% endif %}
                         <div class="col-md-6 project-caption">
                             <h3>{{ post.name }}</h3>
                             <p>Date: {{ post.date | date: "%b %Y" }}</p>
@@ -86,11 +104,17 @@
             {% for post in site.posts %}
                 {% if post.type == "research" %}
                     <div class="row">
-                        <div class='col-md-6'>
-                            <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
-                                <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                            </a>
-                        </div>
+                        {% if post.video %}
+                            <div class='col-md-6'>
+                                <iframe class="embed-responsive-item" src="{{ post.video }}" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        {% else %}
+                            <div class='col-md-6'>
+                                <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
+                                    <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                                </a>
+                            </div>
+                        {% endif %}
                         <div class="col-md-6 project-caption">
                             <h3>{{ post.name }}</h3>
                             <p>Date: {{ post.date | date: "%b %Y" }}</p>

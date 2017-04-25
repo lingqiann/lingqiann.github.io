@@ -493,3 +493,7 @@ section.projects .row:not(:last-child):not(:only-child){
     border-bottom: 1px solid #DDD;
 }
 
+.projects iframe{
+    height: 434px;
+}
+
