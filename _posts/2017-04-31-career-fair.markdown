@@ -3,7 +3,6 @@ layout: default
 type: project
 name: Career Fair Attire instructional website
 tools: "Premiere, Captivate, Go animation, Prezi"
-date: 2017-04-31
 img: main_project.png
 alt: image-alt
 client: Indiana University OEVPUAA
