@@ -446,6 +446,12 @@ p.small{
 }
 
 /* projects */
+
+.projects h3{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
 .project-caption p{
     font-size: medium;
 }
@@ -469,10 +475,6 @@ p.small{
 
 .project-caption p:not(:last-of-type){
     border-bottom: 1px solid #DDD;
-}
-
-.portfolio-link img{
-    margin: 15px 0;   
 }
 
 
