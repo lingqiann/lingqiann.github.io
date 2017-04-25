@@ -1,7 +1,7 @@
 ---
 layout: default
 type: project
-title: Career Fair Attire (coming soon)
+title: Career Fair Attire instructional website
 tools: "Premiere, Captivate, Go animation, Prezi"
 date: 2017-04-31
 img: main_project.png
