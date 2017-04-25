@@ -2,7 +2,6 @@
 layout: default
 type: project
 name: job aid
-date: 2017-03-17
 tools: "InDesign, Photoshop"
 client: Indiana University
 img: job_aid.png

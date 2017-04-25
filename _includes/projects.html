@@ -1,29 +1,20 @@
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <h2>Projects</h2>
-            <hr class="star-primary">
-        </div>
-    </div>
+<div>
 </div>
 
 <section class='projects'>
     <div class="container">
         <div class="row">
             <h2 class='text-center'>Projects</h2>
-        </div>
             {% for post in site.posts %}
                 {% if post.type == "project" %}
                     <div class="row">
-                        <div class='col-md-12'>
-                            <h3>{{ post.name }}</h3>
-                        </div>
                         <div class='col-md-6'>
                             <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
                                 <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                             </a>
                         </div>
                         <div class="col-md-6 project-caption">
+                            <h3>{{ post.name }}</h3>
                             <p>Date: {{ post.date | date: "%b %Y" }}</p>
                             <p>Tools: {{ post.tools }} </p>
                             <p>Client: {{ post.client }}</p>
@@ -43,15 +34,13 @@
             {% for post in site.posts %}
                 {% if post.type == "instructional design" %}
                     <div class="row">
-                        <div class='col-md-12'>
-                            <h3>{{ post.name }}</h3>
-                        </div>
                         <div class='col-md-6'>
                             <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
                                 <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                             </a>
                         </div>
                         <div class="col-md-6 project-caption">
+                            <h3>{{ post.name }}</h3>
                             <p>Date: {{ post.date | date: "%b %Y" }}</p>
                             <p>Tools: {{ post.tools }} </p>
                             <p>Client: {{ post.client }}</p>
@@ -71,15 +60,13 @@
             {% for post in site.posts %}
                 {% if post.type == "graphic design" %}
                     <div class="row">
-                        <div class='col-md-12'>
-                            <h3>{{ post.name }}</h3>
-                        </div>
                         <div class='col-md-6'>
                             <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
                                 <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                             </a>
                         </div>
                         <div class="col-md-6 project-caption">
+                            <h3>{{ post.name }}</h3>
                             <p>Date: {{ post.date | date: "%b %Y" }}</p>
                             <p>Tools: {{ post.tools }} </p>
                             <p>Client: {{ post.client }}</p>
@@ -99,15 +86,13 @@
             {% for post in site.posts %}
                 {% if post.type == "research" %}
                     <div class="row">
-                        <div class='col-md-12'>
-                            <h3>{{ post.name }}</h3>
-                        </div>
                         <div class='col-md-6'>
                             <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
                                 <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                             </a>
                         </div>
                         <div class="col-md-6 project-caption">
+                            <h3>{{ post.name }}</h3>
                             <p>Date: {{ post.date | date: "%b %Y" }}</p>
                             <p>Tools: {{ post.tools }} </p>
                             <p>Client: {{ post.client }}</p>

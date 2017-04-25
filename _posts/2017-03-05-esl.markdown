@@ -2,13 +2,11 @@
 layout: default
 type: instructional design
 name: APA ESL experimental research project
-date: 2017-03-5
+date: 2017-03-05
 tools: experiment design
 img: 2017_IST_conference.png
 alt: image-alt
-project-date: April 2016
 client: IST Conference
-category: Research
 pdf: 2017_IST_conference.pdf
 ---
 The goal of the study was to explore college students' preferences for an animated agent for a computer-based ESL course, and also to investigate their rationales for their choices.

@@ -423,6 +423,11 @@ nav > .container, footer .container, section .container {
 }
 
 /* misc */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'open sans', sans-serif;
+}
+
 section:nth-child(even):not(:only-of-type) {
     background-color: #66819C;
     color: #fff;
@@ -436,7 +441,6 @@ hr.star-light, hr.star-primary {
     margin: 15px auto 30px;
 }
 
-
 p{
     font-size: 20px;   
 }
@@ -447,13 +451,25 @@ p.small{
 
 /* projects */
 
-.projects h3{
+section.projects:first-of-type h2{
     margin-top: 50px;
-    margin-bottom: 25px;
+}
+
+.projects h3{
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .project-caption p{
     font-size: medium;
+}
+
+section.projects h2{
+    margin-bottom: 75px;
+}
+
+section.projects .row:not(:last-child):not(:only-child){
+    margin-bottom: 75px;
 }
 
 @media only screen and (min-width : 768px) {

@@ -2,7 +2,6 @@
 layout: default
 type: instructional design
 name: IST Conference Poster
-date: 2017-01-18
 tools: "Illustrator, InDesign"
 client: Indiana University IST Conference
 img: IST_panel_discussion.png
