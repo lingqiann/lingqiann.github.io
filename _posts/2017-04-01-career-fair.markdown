@@ -9,5 +9,12 @@ client: Indiana University OEVPUAA
 pdf: job_aid22.pdf
 video: https://www.youtube.com/embed/G40-tXBueJ0
 ---
-This is the main project of Instructional Design for career class about how to make an impression in Job Fair. Developed by Ling Qian using Premiere, Captivate, Go animation, Wix, Prezi.  [Click here](https://roborf.wixsite.com/career) to preview.
+This is the main project of Instructional Design for career class about how to make an impression in Job Fair. Website was Developed by Ling Qian and Roberto Borfecchia using Premiere, Captivate, Go animation, Wix, Prezi. 
+My involvement: content analysis, learning objectives, creating animation, making quiz.
+Skills displayed: 
+Instructional Design: Analyzing learner characteristics, learning tasks, learning environment; competencies in specifying appropriate instructional objectives/ strategies/ assessments.
+Project Management: Managing the resources, tracking the completion of tasks, and keeping the client informed of the process.
+Teamwork: Being professional in giving and receiving constructive feedback, and supportive to each other in terms of risk-taking.
+E-learning Tools:  Articulate Storyline,Animation, Premiere, Captivate.
+[Click here](https://roborf.wixsite.com/career) to preview.
 
