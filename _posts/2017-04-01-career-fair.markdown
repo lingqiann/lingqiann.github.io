@@ -1,6 +1,6 @@
 ---
 layout: default
-type: instructional website
+type: Instructional Website
 name: Career Fair Attire instructional website
 tools: "Premiere, Captivate, Go animation, Prezi"
 img: main_project.png
