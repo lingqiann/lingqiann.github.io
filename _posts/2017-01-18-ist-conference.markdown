@@ -1,6 +1,6 @@
 ---
 layout: default
-type: instructional design
+type: graphic design
 name: IST Conference Poster
 tools: "Illustrator, InDesign"
 client: Indiana University IST Conference
