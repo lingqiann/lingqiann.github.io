@@ -1,6 +1,6 @@
 ---
 layout: default
-type: instructional design
+type: research projects
 name: APA ESL experimental research project
 date: 2017-03-05
 tools: experiment design
