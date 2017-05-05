@@ -1,130 +1,38 @@
 <div>
 </div>
 
-<section class='projects'>
-    <div class="container">
-        <div class="row">
-            <h2 class='text-center'>Projects</h2>
-            {% for post in site.posts %}
-                {% if post.type == "project" %}
-                    <div class="row">
-                        {% if post.video %}
-                            <div class='col-md-6'>
-                                <iframe class="img-responsive" src="{{ post.video }}" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        {% else %}
-                            <div class='col-md-6'>
-                                <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
-                                    <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                                </a>
-                            </div>
-                        {% endif %}
-                        <div class="col-md-6 project-caption">
-                            <h3>{{ post.name }}</h3>
-                            <p>Date: {{ post.date | date: "%b %Y" }}</p>
-                            <p>Tools: {{ post.tools }} </p>
-                            <p>Client: {{ post.client }}</p>
-                            <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
-                        </div>
-                    </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-</section>
+{% assign themes = ["Instructional Website", "Evaluation Projects", "Instructional Design", "Graphic Design", "Research Projects"] %}
 
-<section class='projects'>
-    <div class="container">
-        <div class="row">
-            <h2 class='text-center'>Instructional Design</h2>
-            {% for post in site.posts %}
-                {% if post.type == "instructional design" %}
-                    <div class="row">
-                        {% if post.video %}
-                            <div class='col-md-6 embed-responsive-item'>
-                                <iframe src="{{ post.video }}" frameborder="0" allowfullscreen></iframe>
+{% for theme in themes %}
+    <section class='projects'>
+        <div class="container">
+            <div class="row">
+                <h2 class='text-center'>{{ theme }}</h2>
+                {% for post in site.posts %}
+                    {% if post.type == theme | downcase %}
+                        <div class="row">
+                            {% if post.video %}
+                                <div class='col-md-6'>
+                                    <iframe class="img-responsive" src="{{ post.video }}" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            {% else %}
+                                <div class='col-md-6'>
+                                    <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
+                                        <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                                    </a>
+                                </div>
+                            {% endif %}
+                            <div class="col-md-6 project-caption">
+                                <h3>{{ post.name }}</h3>
+                                <p>Date: {{ post.date | date: "%b %Y" }}</p>
+                                <p>Tools: {{ post.tools }} </p>
+                                <p>Client: {{ post.client }}</p>
+                                <p>{{ post.content }}</p>
                             </div>
-                        {% else %}
-                            <div class='col-md-6'>
-                                <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
-                                    <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                                </a>
-                            </div>
-                        {% endif %}
-                        <div class="col-md-6 project-caption">
-                            <h3>{{ post.name }}</h3>
-                            <p>Date: {{ post.date | date: "%b %Y" }}</p>
-                            <p>Tools: {{ post.tools }} </p>
-                            <p>Client: {{ post.client }}</p>
-                            <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
                         </div>
-                    </div>
-                {% endif %}
-            {% endfor %}
+                    {% endif %}
+                {% endfor %}
+            </div>
         </div>
-    </div>
-</section>
-
-<section class='projects'>
-    <div class="container">
-        <div class="row">
-            <h2 class='text-center'>Graphic Design</h2>
-            {% for post in site.posts %}
-                {% if post.type == "graphic design" %}
-                    <div class="row">
-                        {% if post.video %}
-                            <div class='col-md-6 embed-responsive-item'>
-                                <iframe src="{{ post.video }}" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        {% else %}
-                            <div class='col-md-6'>
-                                <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
-                                    <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                                </a>
-                            </div>
-                        {% endif %}
-                        <div class="col-md-6 project-caption">
-                            <h3>{{ post.name }}</h3>
-                            <p>Date: {{ post.date | date: "%b %Y" }}</p>
-                            <p>Tools: {{ post.tools }} </p>
-                            <p>Client: {{ post.client }}</p>
-                            <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
-                        </div>
-                    </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-</section>
-
-<section class='projects'>
-    <div class="container">
-        <div class="row">
-            <h2 class='text-center'>Research</h2>
-            {% for post in site.posts %}
-                {% if post.type == "research" %}
-                    <div class="row">
-                        {% if post.video %}
-                            <div class='col-md-6'>
-                                <iframe class="embed-responsive-item" src="{{ post.video }}" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        {% else %}
-                            <div class='col-md-6'>
-                                <a href="/documents/{{ post.pdf }}" class="portfolio-link" target="_blank">
-                                    <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                                </a>
-                            </div>
-                        {% endif %}
-                        <div class="col-md-6 project-caption">
-                            <h3>{{ post.name }}</h3>
-                            <p>Date: {{ post.date | date: "%b %Y" }}</p>
-                            <p>Tools: {{ post.tools }} </p>
-                            <p>Client: {{ post.client }}</p>
-                            <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
-                        </div>
-                    </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-</section>
+    </section>
+{% endfor %}
