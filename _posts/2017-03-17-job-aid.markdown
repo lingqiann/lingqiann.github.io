@@ -1,6 +1,6 @@
 ---
 layout: default
-type: graphic design
+type: Graphic Design
 name: job aid
 tools: "InDesign, Photoshop"
 client: Indiana University
