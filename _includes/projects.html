@@ -1,9 +1,9 @@
 <div>
 </div>
 
-{% assign themes = ["Instructional Website", "Evaluation Projects", "Instructional Design", "Graphic Design", "Research Projects"] %}
+{% assign themes = "Instructional Website,Evaluation Projects,Instructional Design,Graphic Design,Research Projects" | split: "," %}
 
-{% for theme in themes %}
+{% for theme in themes %}    
     <section class='projects'>
         <div class="container">
             <div class="row">
