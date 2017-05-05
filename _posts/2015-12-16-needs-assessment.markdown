@@ -1,6 +1,6 @@
 ---
 layout: default
-type: research
+type: evaluation projects
 name: needs assessment project
 date: 2015-12-16
 tools: "SWOT"
