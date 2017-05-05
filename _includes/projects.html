@@ -9,7 +9,7 @@
             <div class="row">
                 <h2 class='text-center'>{{ theme }}</h2>
                 {% for post in site.posts %}
-                    {% if post.type == (theme | downcase) %}
+                    {% if post.type == theme %}
                         <div class="row">
                             {% if post.video %}
                                 <div class='col-md-6'>
