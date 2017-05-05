@@ -12,7 +12,7 @@ skills:
 ---
 This is the main project of Instructional Design for career class about how to make an impression in Job Fair. Website was Developed by Ling Qian and Roberto Borfecchia using Premiere, Captivate, Go animation, Wix, Prezi. 
 My involvement: content analysis, learning objectives, creating animation, making quiz.
-<br /><br />
+
 Skills displayed: 
 Instructional Design: Analyzing learner characteristics, learning tasks, learning environment; competencies in specifying appropriate instructional objectives/ strategies/ assessments.
 Project Management: Managing the resources, tracking the completion of tasks, and keeping the client informed of the process.
