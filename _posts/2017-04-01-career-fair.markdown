@@ -17,4 +17,4 @@ Instructional Design: Analyzing learner characteristics, learning tasks, learnin
 Project Management: Managing the resources, tracking the completion of tasks, and keeping the client informed of the process.
 Teamwork: Being professional in giving and receiving constructive feedback, and supportive to each other in terms of risk-taking.
 E-learning Tools:  Articulate Storyline,Animation, Premiere, Captivate.
-[Click here](https://roborf.wixsite.com/career) to preview.
+<a href="https://roborf.wixsite.com/career" target="_blank">Click here</a> to preview.
