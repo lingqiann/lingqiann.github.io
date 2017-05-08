@@ -25,10 +25,10 @@
                             <div class="col-md-6 project-caption">
                                 <h3>{{ post.name }}</h3>
                                 <p>Date: {{ post.date | date: "%b %Y" }}</p>
-                                <p>Client: {{ post.Client }} </p>
+                                <p>Client: {{ post.client }} </p>
                                 <p>Skills: {{ post.skills }}</p>
-                                <p>Team: {{ post.Team }}</p>
-                                <p>Involvement: {{ post.Involvement}}</p>
+                                <p>Team Composition: {{ post.team }}</p>
+                                <p>Involvement: {{ post.involvement}}</p>
                                 <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
                             </div>
                         </div>
