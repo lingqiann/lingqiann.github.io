@@ -4,7 +4,7 @@ type: Instructional Website
 name: Career Fair Attire instructional website
 Client: Indiana University OEVPUAA
 skills: Premiere, Captivate, Go animation, Prezi
-Team Composition: Ling Qian and Roberto Borfecchia
+Team_Composition: Ling Qian and Roberto Borfecchia
 img: main_project.png
 alt: image-alt
 pdf: job_aid22.pdf
