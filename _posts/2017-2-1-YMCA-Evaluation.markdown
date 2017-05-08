@@ -1,4 +1,3 @@
-
 ---
 layout: default
 type: Evaluation Projects
