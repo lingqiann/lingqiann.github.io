@@ -3,9 +3,10 @@ layout: default
 type: Evaluation Projects
 name: YMCA Evaluation Project
 date: 2017-2-1
-tools: "SWOT"
-client: IST Department
-img: online_master_needs_assessment_slides.png
+Client: Monroe County YMCA 
+Skills: Qualtrics, Interview, Observation, Content Analysis
+Team: Susan Loucks, Ling Qian, Brett Gary
+img: YMCA.png
 alt: image-alt
 pdf: online_master_needs_assessment_slides.pdf
 ---
