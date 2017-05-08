@@ -8,7 +8,7 @@ alt: image-alt
 client: Indiana University OEVPUAA
 pdf: job_aid22.pdf
 video: https://www.youtube.com/embed/G40-tXBueJ0
-skills:Premiere, Captivate, Go animation, Prezi
+skills: Premiere, Captivate, Go animation, Prezi
 ---
 This is the main project of Instructional Design for career class about how to make an impression in Job Fair. Website was Developed by Ling Qian and Roberto Borfecchia using Premiere, Captivate, Go animation, Wix, Prezi. 
 My involvement: content analysis, learning objectives, creating animation, making quiz.
