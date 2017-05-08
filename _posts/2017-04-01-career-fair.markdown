@@ -2,7 +2,7 @@
 layout: default
 type: Instructional Website
 name: Career Fair Attire instructional website
-client: Indiana University OEVPUAA
+Client: Indiana University OEVPUAA
 skills: Premiere, Captivate, Go animation, Prezi
 img: main_project.png
 alt: image-alt
