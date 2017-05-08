@@ -1,8 +1,8 @@
 ---
 layout: default
 type: Evaluation Projects
-name: needs assessment project
-date: 2015-12-16
+name: YMCA Evaluation Project
+date: 2017-2-1
 tools: "SWOT"
 client: IST Department
 img: online_master_needs_assessment_slides.png
