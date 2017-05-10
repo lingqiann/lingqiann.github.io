@@ -11,4 +11,4 @@ img: YMCA.png
 alt: image-alt
 pdf: online_master_needs_assessment_slides.pdf
 ---
-This project is a evaluation project for Monroe County YMCA Group Exercise Program to improve their group exercise classes,increase member engagement, and satisfaction. 
+This project is a evaluation project for Monroe County YMCA Group Exercise Program to improve their group exercise classes, increase member engagement, and satisfaction. 
