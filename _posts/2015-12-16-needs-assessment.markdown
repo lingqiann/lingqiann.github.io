@@ -6,7 +6,7 @@ date: 2015-12-16
 skills: SWOT, FFA, PEST, Interview, Survey, Coding
 team composition: Meina Zhu, Ratrapee Techawitthayachinda, Ling Qian
 client: IST Department
-Involvement: Interviewed 8 online students and 6 faculty members, transtripted 4 interviews. conducted the data analysis and was responsible for the literature review.
+involvement: Interviewed 8 online students and 6 faculty members, transtripted 4 interviews. conducted the data analysis and was responsible for the literature review.
 img: online_master_needs_assessment_slides.png
 alt: image-alt
 pdf: online_master_needs_assessment_slides.pdf
