@@ -7,7 +7,7 @@ client: Monroe County YMCA
 skills: Qualtrics, Interview, Observation, Content Analysis
 team: Susan Loucks, Ling Qian, Brett Gary
 involvement: Interview, data analysis, final report
-img: YMCA.png
+img: hbu_mooc.png
 alt: image-alt
 pdf: online_master_needs_assessment_slides.pdf
 ---
