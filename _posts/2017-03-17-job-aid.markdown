@@ -2,7 +2,9 @@
 layout: default
 type: Graphic Design
 name: job aid
-tools: "InDesign, Photoshop"
+skills: InDesign, Photoshop
+team: Ling Qian
+involvement: Analysis needs, Design layout, Develop the production
 client: Indiana University
 img: job_aid.png
 alt: image-alt
