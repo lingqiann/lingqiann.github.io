@@ -2,9 +2,9 @@
 layout: default
 type: Graphic Design
 name: IST Conference Poster
-skills: Illustrator, InDesign,Photoshop
+skills: Illustrator, InDesign, Photoshop
 client: Indiana University IST Conference
-team: Inging Ratrapee,Julia Juska,Ling Qian
+team: Inging Ratrapee, Julia Juska, Ling Qian
 img: IST_panel_discussion.png
 involvement: designed the layout of the posters
 alt: image-alt
