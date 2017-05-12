@@ -6,7 +6,7 @@ date: 2017-1-10
 client: Hebei University OVEPUAA
 skills: Instructional design, Storyboard. timeline management
 team: Ling Qian
-involvement:instructional designer.
+involvement: instructional designer.
 img: EDGE_storyboard.png
 alt: image-alt
 pdf:EDGE_storyboard.pdf
