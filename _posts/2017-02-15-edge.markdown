@@ -3,12 +3,14 @@ layout: default
 type: Graphic Design
 name: EDGE infographic
 date: 2017-02-15
-tools: "Illustrator, Photoshop"
+Skills: Illustrator, Photoshop
 img: EDGE_infographic.png
 alt: image-alt
-client: Indiana University OEVPVAA
+team: Ling Qian
+Involvement: collecting resources and designing the layout.
+client: Indiana University OEVPUAA
 pdf: EDGE_infographic.pdf
 ---
 
-This design is to offer a quick look at EDGE online course modules for undergraduate students and career advisors.Designed by Ling Qian, using Illustrator CC, contents come from https://iu.instructure.com/courses/1467746. 
+This design is to offer a quick look at EDGE online course modules for undergraduate students and career advisors. Designed by Ling Qian, using Illustrator CC, contents came from IU EDGE Career online modules https://iu.instructure.com/courses/1467746. 
 
