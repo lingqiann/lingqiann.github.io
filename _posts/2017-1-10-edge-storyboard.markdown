@@ -4,7 +4,7 @@ type: Instructional Design
 name: EDGE STORYBOARD
 date: 2017-1-10
 client: Hebei University OVEPUAA
-skills: Instructional design, Storyboard. timeline management
+skills: Instructional design, Storyboard, timeline management
 team: Ling Qian
 involvement: instructional designer
 img: EDGE_storyboard.png
