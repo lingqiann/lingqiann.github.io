@@ -3,10 +3,12 @@ layout: default
 type: Research Projects
 name: APA ESL experimental research project
 date: 2017-03-05
-tools: experiment design
+skills: experiment design
+team: Ling Qian, Dr. Gamze Ozogul
 img: 2017_IST_conference.png
 alt: image-alt
 client: IST Conference
+involvement: Principle investigator, designed the experiment and writing article
 pdf: 2017_IST_conference.pdf
 ---
 The goal of the study was to explore college students' preferences for an animated agent for a computer-based ESL course, and also to investigate their rationales for their choices.
