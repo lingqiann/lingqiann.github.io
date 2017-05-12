@@ -16,7 +16,6 @@ a:active,
 a.active {
     outline: 0;
     color: #{{ site.color.primary }};
-    text-decoration: underline;
 }
 
 h1,
@@ -498,3 +497,6 @@ section.projects .row:not(:last-child):not(:only-child){
     height: 434px;
 }
 
+.project-caption a{
+    text-decoration: underline;   
+}
