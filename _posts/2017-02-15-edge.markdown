@@ -7,7 +7,7 @@ Skills: Illustrator, Photoshop
 img: EDGE_infographic.png
 alt: image-alt
 team: Ling Qian
-Involvement: collecting resources and designing the layout.
+Involvement: collecting resources and designing the layout
 client: Indiana University OEVPUAA
 pdf: EDGE_infographic.pdf
 ---
