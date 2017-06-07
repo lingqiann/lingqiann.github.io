@@ -5,7 +5,7 @@ name: adjunct faculty professional development needs assessment project
 date: 2015-12-6
 client: Indiana University SouthEast  
 skills: PEST,SWOT, FFA, Interview, Observation, Content Analysis
-team: Susan Loucks, Ling Qian, Brett Gary
+team: Su Jin Park, Ling Qian, Caity Stockstell, Sonja Strahl, Renee Petrina
 involvement: Interview, data analysis, final report
 img: Adjunct_Faculty_Needs_Assessment.png
 alt: image-alt
