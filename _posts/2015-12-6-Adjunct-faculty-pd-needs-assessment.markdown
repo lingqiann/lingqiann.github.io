@@ -1,7 +1,7 @@
 ---
 layout: default
 type: Evaluation Projects
-name: Adjunct Faculty Professional Development Needs Assessment Project
+name: adjunct faculty professional development needs assessment project
 date: 2015-12-6
 client: Indiana University SouthEast  
 skills: PEST,SWOT, FFA, Interview, Observation, Content Analysis
