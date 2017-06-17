@@ -3,7 +3,7 @@ layout: default
 type: Instructional Website
 name: Career Fair Attire instructional website
 client: Indiana University OEVPUAA
-skills: Premiere, Captivate, Go animation, Prezi
+skills: Premiere, Captivate, Go Animate, Prezi
 team: Ling Qian and Roberto Borfecchia. 
 involvement: content analysis, learning objectives, creating animation, making quiz.
 img: main_project.png
