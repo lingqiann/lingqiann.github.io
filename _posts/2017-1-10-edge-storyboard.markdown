@@ -3,7 +3,7 @@ layout: default
 type: Instructional Design
 name: EDGE STORYBOARD
 date: 2017-1-10
-client: Hebei University OVEPUAA
+client: Indiana University OVEPUAA
 skills: Instructional design, Storyboard, timeline management
 team: Ling Qian
 involvement: instructional designer
