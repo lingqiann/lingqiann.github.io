@@ -208,7 +208,7 @@ section.success {
         padding-top: 75px;
     }
     
-    .img-banner{
+    #banner .img-responsive.img-banner{
         margin-top: 80px;
     }
 }
