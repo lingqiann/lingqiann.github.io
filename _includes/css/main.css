@@ -472,6 +472,11 @@ section.projects .row:not(:last-child):not(:only-child){
     margin-bottom: 75px;
 }
 
+.projects .row {
+    margin-left: 0px; !important
+    margin-right: 0px; !important
+}
+
 @media only screen and (min-width : 768px) {
     .is-table {
         display: table;
