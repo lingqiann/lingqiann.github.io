@@ -394,7 +394,7 @@ ul.nav > li > a:focus {
 }
 
 #banner .img-responsive{
-    margin-top: -30px;
+    margin-top: 40px;
 }
 
 @media (min-width: 1200px){
