@@ -93,6 +93,10 @@ header img {
     margin: 0 auto 20px;
 }
 
+header .intro-text{
+    padding: 0 15px;   
+}
+
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
@@ -477,7 +481,7 @@ section.projects .row:not(:last-child):not(:only-child){
     margin-bottom: 75px;
 }
 
-.projects .row {
+.row {
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
