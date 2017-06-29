@@ -473,6 +473,7 @@ section.projects .row:not(:last-child):not(:only-child){
 }
 
 .projects .row {
+    margin-left: 0px; !important
     margin-right: 0px; !important
 }
 
