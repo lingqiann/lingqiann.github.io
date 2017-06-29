@@ -207,6 +207,10 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+    
+    .img-banner{
+        margin-top: 80px;
+    }
 }
 
 .btn-outline {
